@@ -1,0 +1,12 @@
+// This file exists only to generate the official Gradle Wrapper if your IDE needs it.
+// It intentionally uses old Gradle syntax so even ancient system Gradle installs can parse it.
+//
+// Preferred command from this project folder:
+//     gradlew.bat -b setup-wrapper.gradle wrapper
+// or on WSL/Linux/macOS:
+//     ./gradlew -b setup-wrapper.gradle wrapper
+
+task wrapper(type: Wrapper) {
+    gradleVersion = '9.2.1'
+    distributionType = Wrapper.DistributionType.BIN
+}

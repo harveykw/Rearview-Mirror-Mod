@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "rearviewmirror",
+  "version": "${version}",
+  "name": "Rearview Mirror",
+  "description": "Configurable rearview mirror HUD overlay for Fabric clients.",
+  "authors": ["Kookie"],
+  "contact": {},
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.kookie.rearview.RearViewMirrorClient"
+    ]
+  },
+  "mixins": [
+    {
+      "config": "rearviewmirror.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "=1.21.11",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
