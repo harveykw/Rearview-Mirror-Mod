@@ -26,7 +26,7 @@ public final class RearViewConfig {
     public float mirrorFovDegrees = 90.0f;
 
     // Performance optimization by skipping frames and lowering animations.
-    public int updateEveryNFrames = 1;
+    public int updateEveryNFrames = 2;
 
     public boolean drawBorder = true;
     public boolean drawLabels = true;
