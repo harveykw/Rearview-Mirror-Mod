@@ -1,18 +1,22 @@
 
-# Rearview Mirror Mod — For Fabric 1.21.11
+# Rearview Mirror Mod
 
-A client-only Fabric mod that adds a configurable HUD rearview mirror box.
+A client-only Fabric mod for minecraft java 1.21.11 that adds a configurable HUD rearview mirror box.
 
 The mirror works by doing an extra world render pass into a small offscreen framebuffer, then drawing that rear view into a HUD box. 
 
 ![Example demo](readmeImages/example%202.gif)
 
+## Releases:
+https://modrinth.com/mod/rearview-mirror-mod
+
+
 ## Controls
 
 Default keys:
 
-- `R` — toggle mirror HUD
-- `O` — open the config screen
+- `R` - toggle mirror HUD
+- `O` - open the config screen
 
 Inside the config screen:
 
