@@ -7,8 +7,8 @@ The mirror works by doing an extra world render pass into a small offscreen fram
 
 ![Example demo](readmeImages/example%202.gif)
 
-## Releases:
-https://modrinth.com/mod/rearview-mirror-mod
+## Mod Platforms:
+https://modrinth.com/project/gTRtEVEQ
 
 
 ## Controls
