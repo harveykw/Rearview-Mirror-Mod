@@ -9,6 +9,7 @@ The mirror works by doing an extra world render pass into a small offscreen fram
 
 ## Mod Platforms:
 https://modrinth.com/project/gTRtEVEQ
+https://www.curseforge.com/minecraft/mc-mods/rearview-mirror
 
 
 ## Controls
